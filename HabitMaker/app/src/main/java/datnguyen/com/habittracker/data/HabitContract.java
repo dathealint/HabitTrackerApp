@@ -30,7 +30,7 @@ public class HabitContract {
 		// Repeat period value specifies exact day in week/month to remind. Multiple values can be joined by using comma
 		// For mode Daily, this value doesnt matter, should be left blank
 		// For mode Weekly, this value ranges from 0 to 6, starting from Sunday (value 0) to Saturday (value 6)
-		// For mode Monthly, this value ranges from 0 to 30, as date of month.
+		// For mode Monthly, this value ranges from 1 to 31, as date of month.
 		// For example, user can set to remind him at 9:00AM on mode Weekly but for Monday and Thursday only
 		// In that case, remind_time is 9:00AM, repeat_mode is 1, repeat_mode_value is "1,4"
 		// Stored as INTEGER
